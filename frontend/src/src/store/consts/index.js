@@ -1,8 +1,9 @@
-import posts from './posts'
+import POSTS from './posts'
 import {getFullName} from "@/store/utils";
 
-const POSTS = getFullName(posts)
+const FN_POSTS = getFullName(POSTS)
 
 export {
-    POSTS
+    POSTS,
+    FN_POSTS
 }
