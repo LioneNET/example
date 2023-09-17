@@ -10,7 +10,6 @@
           <v-card-text>
             <v-row>
               <v-col cols="12" style="position: sticky; top: 0; z-index: 2; background-color: white;">
-                <div>
                   <v-text-field
                       outlined
                       placeholder="Введите название статьи"
@@ -31,8 +30,6 @@
                       </v-btn>
                     </template>
                   </v-text-field>
-                </div>
-
               </v-col>
 
               <v-col cols="12">

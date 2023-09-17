@@ -1,5 +1,6 @@
 
 export default {
+    //Группировка констант по имени
     NAME: 'POSTS_MODULE',
 
     //setters
