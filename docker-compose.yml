@@ -55,16 +55,6 @@ services:
       - ./frontend/src:/usr/src/app
       - /usr/src/app/node_modules
       
-  mailhog:
-    image: mailhog/mailhog
-    logging:
-      driver: 'none'
-    ports:
-      - 1025:1025
-      - 8030:8025
-    networks:
-      - others_my-net
-      
 networks:
   others_my-net:
     external: true
